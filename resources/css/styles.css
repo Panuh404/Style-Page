@@ -1,33 +1,421 @@
 header {
-    background-color: #0a387e;
-    padding: 20px;
-    text-align: center;
-}
-
-nav {
-    margin: 0;
-    padding: 5px 0;
+    background-color: #C57257;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 10px;
+    position: fixed;
 }
 
 nav li {
-    color: #fff;
+    display: block;
+    width: 40px;
+}
+
+nav li button {
+    background-color:  #DEDEC4;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    display: inline-block;
-    width: 80px;
+    border: none;
+    color: #262721;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 2px -30px;
+    width: 60px;
+    height: 60px;
+}
+
+button:hover{
+    color: #C57257;
 }
 
 body {
-    background-color: 2;
+   /*background-color: #73827D;*/
+    background: linear-gradient(to right, #3D3E34, #73827D, #3D3E34);
 }
 #title {
     font-family:'Bebas Neue', cursive;
     font-size: 50px;
+    letter-spacing: 5px;
     text-align: center;
-    background-color: royalblue;
-    margin: 15px auto;
-    width: 400px;
+    background-color: #C57257;
+    margin: 20px auto;
+    width: 600px;
     height: 60px;
     border-radius: 60px;
+}
+
+
+.colors{
+    background-color: #DEDEC4;
+    width:  800px;
+    height: 800px;
+    margin: 15px auto;
+    padding: 1px 5px;
+    border-radius: 15px;
+    border: 5px solid #C57257;
+}
+
+.fonts {
+    background-color: #DEDEC4;
+    width:  800px;
+    height: 800px;
+    margin: 15px auto;
+    padding: 1px 5px;
+    border-radius: 15px;
+    border: 5px solid #C57257;
+}
+
+.text {
+    background-color: #DEDEC4;
+    width:  800px;
+    height: 800px;
+    margin: 15px auto;
+    padding: 1px 5px;
+    border-radius: 15px;
+    border: 5px solid #C57257;
+}
+
+.credits {
+
+    background-color: #DEDEC4;
+    width:  800px;
+    height: 250px;
+    margin: 15px auto;
+    padding: 1px 5px;
+    border-radius: 15px;
+    border: 5px solid #C57257;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.colors p {
+    color:rgb(196, 195, 195);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 60px;
+}
+
+.color1 {
+    background-color:#73827D;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 15px auto;
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    right: 220px;
+}
+
+.color2 {
+    background-color:#C57257;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 220px;
+}
+
+.color3 {
+    background-color:#3D3E34;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 220px;
+}
+
+.color4 {
+    background-color:#DEDEC4;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    left: 120px;
+    bottom: 702px;
+}
+
+.color4 p {
+    color:rgb(143, 143, 143);
+}
+
+.color5 {
+    background-color: #685A49;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    left: 120px;
+    bottom: 702px;
+}
+
+.color6 {
+    background-color:#282828;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    left: 120px;
+    bottom: 702px;
+}
+
+.font1 {
+    width: 300px;
+    height: 300px;
+    background-color: #C57257;
+    display: inline-block;
+    position: relative;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 300px;
+}
+.font1 p{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+.font1 #stand{
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px 30px;
+}
+.font1 #bold{
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 15px 30px;
+}
+.font1 #ital{
+    text-align: left;
+    font-style: italic;
+    font-size: 16px;
+    margin: 15px 30px;
+}
+
+.font2 {
+    width: 300px;
+    height: 300px;
+    background-color: #C57257;
+    position: relative;
+    display: inline-block;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    left: 100px;
+    bottom:335px;
+    
+}
+.font2 p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.font2 #stand{
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 15px 30px;
+}
+.font2 #bold{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 30px;
+}
+.font2 #ital{
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    margin: 15px 30px;
+}
+
+.font3 {
+    width: 300px;
+    height: 300px;
+    background-color: #C57257;
+    display: inline-block;
+    position: relative;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 300px;
+    bottom: 320px;
+}
+
+.font3 p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.font3 #stand{
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 15px 30px;
+}
+.font3 #bold{
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px 30px;
+}
+.font3 #ital{
+    text-align: left;
+    font-style: italic;
+    font-size: 15px;
+    margin: 15px 30px;
+}
+
+
+.font4 {
+    width: 300px;
+    height: 300px;
+    background-color: #C57257;
+    position: relative;
+    display: inline-block;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    left: 100px;
+    bottom: 650px;
+}
+
+.font4 p{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+.font4 #stand{
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px 30px;
+}
+.font4 #bold{
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 15px 30px;
+}
+.font4 #ital{
+    text-align: left;
+    font-style: italic;
+    font-size: 16px;
+    margin: 15px 30px;
+}
+
+.heading1{
+    width: 700px;
+    height: 250px;
+    background-color: #C57257;
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 300px;
+}
+
+.heading1 h1{
+    font-family:'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.heading2{
+    width: 700px;
+    height: 200px;
+    background-color: #C57257;
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 300px;
+}
+
+.heading2 h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.paragraph{
+    width: 700px;
+    height: 180px;
+    background-color: #C57257;
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 300px;
+}
+
+.paragraph p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text li{
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    color: #262721;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+}
+
+.credits-p{
+    width: 700px;
+    height: 110px;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 300px;
 }
